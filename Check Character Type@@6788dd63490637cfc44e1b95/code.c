@@ -7,14 +7,13 @@ int main(){
     if(isdigit(ch)){
         printf("Digit");
     }
-    else if(isalpha(ch)){
-        if(ch==vowel){
-            printf("Vowel");
-        }
-        else{
-            printf("Consonant");
-        }
+    else if(isalpha(ch) && ch==vowel){
+        printf("Vowel");
     }
+    else if(isalpha(ch) && ch!=vowel){
+        printf("Consonant");
+    }
+    
     else{
         printf("Special Character");
     }
