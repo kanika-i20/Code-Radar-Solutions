@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<ctype.h>//for is upper and islower
 int main(){
     char ch;
     scanf("%c",&ch);
