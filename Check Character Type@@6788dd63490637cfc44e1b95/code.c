@@ -2,7 +2,7 @@
 #include<ctype.h>
 int main(){
     char ch;
-    vowel=a,e,i,o,u;
+    vowel=aeiou;
     scanf("%c",ch);
     if(isdigit(ch)){
         printf("Digit");
