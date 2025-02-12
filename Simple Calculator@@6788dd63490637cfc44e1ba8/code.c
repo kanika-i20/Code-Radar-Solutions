@@ -3,21 +3,22 @@ int main(){
     char sign;
     int a,b,;
     scanf("%d %d %c",&a,&b,&sign);
-    if(c=='+'){
+    switch(sign){
+        case '+':
         printf("%d",a+b);
-    }
-    else if(c=='-'){
+        break;
+        case '-':
         printf("%d",a-b);
-    }
-    else if(c=='*'){
+        break;
+        case '*':
         printf("%d",a*b);
-
-    }
-    else if(c=='/'){
+        break;
+        case '/':
         printf("%d",a/b);
-    }
-    else{
+        break;
+        default:
         printf("error");
+        break;
     }
     return 0;
 }
