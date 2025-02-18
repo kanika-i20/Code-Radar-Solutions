@@ -7,6 +7,6 @@ int main(){
         t=n*i;
         i++;
     }
-    printf("%d",n * i = t);
+    printf("%d\n",n * i = t);
     return 0;
 }
