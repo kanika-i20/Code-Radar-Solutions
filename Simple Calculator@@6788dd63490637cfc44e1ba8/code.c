@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
     char sign;
-    float a,b;
+    int a,b;
     scanf("%d %d %c",&a,&b,&sign);
     switch(sign){
-        case +:
+        case '+':
         printf("%d",a+b);
         break;
         case '-':
