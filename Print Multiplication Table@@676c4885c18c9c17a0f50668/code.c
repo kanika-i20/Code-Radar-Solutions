@@ -6,7 +6,7 @@ int main(){
     while(i<=10){
         t=n*i;
     }
-    printf("%d\n",n * i = t);
+    printf("%d\n",t);
     i++;
     return 0;
 }
