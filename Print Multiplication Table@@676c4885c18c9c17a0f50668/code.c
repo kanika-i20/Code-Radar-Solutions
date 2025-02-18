@@ -5,8 +5,8 @@ int main(){
     i=1;
     while(i<=10){
         t=n*i;
-        i++;
     }
     printf("%d\n",n * i = t);
+    i++;
     return 0;
 }
